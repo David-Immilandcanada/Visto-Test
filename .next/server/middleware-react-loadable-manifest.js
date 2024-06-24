@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST={}
+self.__REACT_LOADABLE_MANIFEST={"country\\[countryCode]\\about.tsx -> ../../../components/Map":{"id":"country\\[countryCode]\\about.tsx -> ../../../components/Map","files":["static/chunks/src_components_Map_tsx.js"]}}
