@@ -3,15 +3,22 @@ import React, { createContext, useContext, useState, ReactNode, Key } from 'reac
 interface Country {
     alpha3Code: Key | null | undefined;
     name: string;
-    officialName: string;
     nativeName: string;
-    currencies: { name: string }[];
+    officialName: string;
+    currencies: { name: string; code: string; symbol: string }[];
     capital: string;
     region: string;
+    subregion: string;
     borders: string[];
     population: number;
     latlng: [number, number];
-    postalCodeFormat: string;
+    flag: string;
+    callingCodes: string[];
+    area: number;
+    demonym: string;
+    gini: number;
+    languages: { name: string; nativeName: string }[];
+    timezones: string[];
 }
 
 interface CountryContextProps {

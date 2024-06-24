@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import './styles.css';
+@import 'leaflet/dist/leaflet.css';
+
+
+:root {
+    --e-global-color-0e95cb6: #0e95cb6;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--e-global-color-0e95cb6);
+}
